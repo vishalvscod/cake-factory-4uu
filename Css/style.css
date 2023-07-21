@@ -1,0 +1,162 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.just-btw {
+    justify-content: space-between;
+    
+}
+
+.just-arnd {
+    justify-content: space-around;
+}
+
+.just-even {
+    justify-content: space-evenly;
+}
+
+.just-cetr {
+    justify-content: center;
+}
+
+.text-cntr {
+    text-align: center;
+}
+
+.container {
+    padding: 2vw;
+}
+
+header {
+    background-color: black;
+    padding: 0.7vw;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    color: red;
+    font-size: 2vw;
+    
+}
+
+header h3 span {
+    
+    font-size: 3vw;
+}
+
+h3 .fouru{
+    color: white;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+.backery {
+    width: 20vw;
+    color: yellow;
+    margin-top: 1vw;
+    font-size: 2vw;
+    font-style:italic;
+}
+
+header div a{
+    color: deepskyblue;
+    text-decoration: none;
+    margin-top: 1vw;
+    margin-right: 2vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+} 
+
+header div a:hover {
+    color: white;
+    
+} 
+
+.shop {
+    width: 100%;
+    margin-top: 10vw;
+}
+
+.shop h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.shop p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-style: italic;
+    color: chocolate;
+}
+.shopimg {
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.shopimg img {
+    width: 100%;
+    border: 0.5vw solid green;
+    border-radius: 2%;
+
+}
+
+.cakesection {
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    
+}
+
+.leftpart {
+    width: 100%;
+    height: 50%;
+}
+
+.leftpart img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.rightpart {
+    
+    padding: 2.8vw;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.rightpart h2 {
+     margin: 2vw 0 2vw 0;
+}
+
+.social-icons img {
+    width: 5%;
+}
+
+@media screen and (max-width:800px){
+    
+   .hero {
+    flex-direction: column-reverse;
+    
+    
+   }
+   .shop h1 {
+    font-size: 5vw;
+   }
+   .shop p {
+    font-size: 3vw;
+   }
+
+   .maincakes {
+    flex-direction: column;
+   }
+}
+
+
