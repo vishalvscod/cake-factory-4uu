@@ -1,5 +1,5 @@
 * {
-    box-sizing: 0;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -137,7 +137,7 @@ header div a:hover {
 }
 
 .social-icons img {
-    width: 5%;
+    width: 10%;
 }
 
 @media screen and (max-width:800px){
